@@ -8,7 +8,9 @@ use std::result::Result as StdResult;
 pub use async_trait;
 #[doc(hidden)]
 pub use js_sys;
-pub use url::Url;
+
+pub use url::{ParseError, Url};
+
 #[doc(hidden)]
 pub use wasm_bindgen;
 #[doc(hidden)]
